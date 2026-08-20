@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated EUMH-ATM paper and the archived software release once its DOI is available."
+title: "EUMH-ATM Reproducibility Repository"
+type: software
+version: 0.1.0
+date-released: 2026-08-20
+authors:
+  - family-names: "Mohamed"
+    given-names: "Walaa Adel Mahmoud"
+  - family-names: "Abu Rizka"
+    given-names: "Mohamed"
+  - family-names: "Mahar"
+    given-names: "Khaled"
+  - family-names: "Abdelsalam"
+    given-names: "Mohammed"
+repository-code: "https://github.com/WalaaAMahmoud/EUMH-ATM-Reproducibility"
+keywords:
+  - ATM cash management
+  - time-series forecasting
+  - hybrid deep learning
+  - explainable artificial intelligence
+  - uncertainty quantification
+  - conformal prediction
+  - replenishment
+  - vehicle routing
+  - sustainability
