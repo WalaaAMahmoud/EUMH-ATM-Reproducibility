@@ -1,0 +1,25 @@
+{
+  "title": "EUMH-ATM Reproducibility Repository",
+  "description": "Reproducibility materials for an explainable and uncertainty-aware multi-hybrid AI framework for ATM cash management, including forecasting, XAI, calibrated uncertainty, replenishment-policy evaluation, and downstream routing-based sustainability scenarios.",
+  "upload_type": "software",
+  "publication_date": "2026-08-20",
+  "version": "0.1.0",
+  "creators": [
+    {"name": "Mohamed, Walaa Adel Mahmoud"},
+    {"name": "Abu Rizka, Mohamed"},
+    {"name": "Mahar, Khaled"},
+    {"name": "Abdelsalam, Mohammed"}
+  ],
+  "keywords": [
+    "ATM cash management",
+    "time-series forecasting",
+    "hybrid deep learning",
+    "explainable AI",
+    "uncertainty quantification",
+    "conformal prediction",
+    "cash replenishment",
+    "vehicle routing",
+    "operational sustainability"
+  ],
+  "access_right": "open"
+}
