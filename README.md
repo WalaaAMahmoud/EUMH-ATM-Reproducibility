@@ -33,3 +33,7 @@ Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without
 See [S14 instructions and methodological boundaries](packages/s14/README_S14.md). S14 contains nine overlapping H=56 origin evaluations, a separate fitted-weight holdout calibration sensitivity, cash-only scenarios, portable scripts, executed sources and saved outputs. It does not supply fitted weights or establish untouched confirmation or new independent-origin significance. No new route/emissions simulation is claimed. Saved numerical verification reports include refit mismatches for several models.
 
 The S14 ZIP integrity and syntax of its 35 Python files were checked during deposit; model fitting was not repeated. Original package SHA-256: `72dc8d76161fc6b3559b0f935908747e189236095a27c5366c75085460a4e9b6`.
+
+## Complete S14 archive DOI
+
+The complete archive (PR-3 source ZIP plus the original S14 ZIP) is published as Zenodo version 1.1.1: https://doi.org/10.5281/zenodo.23575850. Download S14 directly from that record or the GitHub v1.1.0 release asset. S14 is not included in GitHub's automatically generated source-code ZIP. Do not use the earlier Zenodo v1.1.0 record as evidence of an archived S14 binary.
