@@ -25,3 +25,15 @@ Walaa Adel Mahmoud Mohamed; Mohamed Abu Rizka; Khaled Mahar; Mohammed Abdelsalam
 ## Citation
 
 Version 1.0.0 is archived at https://doi.org/10.5281/zenodo.23558922. The DOI for all versions is https://doi.org/10.5281/zenodo.23558921. See CITATION.cff. The Zenodo archive metadata lists CC BY 4.0; no separate source-code licence file is included.
+
+## S14 post-review computational companion
+
+Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without modifying its contents. It is stored in six parts under `packages/s14/`. Rebuild it with:
+
+```bash
+python packages/s14/reassemble_s14.py
+```
+
+See [S14 instructions and methodological boundaries](packages/s14/README_S14.md). S14 contains nine overlapping H=56 origin evaluations, a separate fitted-weight holdout calibration sensitivity, cash-only scenarios, portable scripts, executed sources and saved outputs. It does not supply fitted weights or establish untouched confirmation or new independent-origin significance. No new route/emissions simulation is claimed. Saved numerical verification reports include refit mismatches for several models.
+
+The S14 ZIP integrity and syntax of its 35 Python files were checked during deposit; model fitting was not repeated. Original package SHA-256: `72dc8d76161fc6b3559b0f935908747e189236095a27c5366c75085460a4e9b6`.

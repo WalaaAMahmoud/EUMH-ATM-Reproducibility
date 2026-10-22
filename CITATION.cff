@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this deposit, please cite the archived software release."
-title: "EUMH-ATM: PR-3 Thesis Code and Preserved Experiment Outputs"
+title: "EUMH-ATM: PR-3 Thesis Code and S14 Computational Companion"
 type: software
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-10-22
 authors:
   - family-names: "Mohamed"
@@ -25,5 +25,3 @@ keywords:
   - vehicle routing
   - sustainability
 
-doi: "10.5281/zenodo.23558922"
-url: "https://doi.org/10.5281/zenodo.23558922"

@@ -1,9 +1,9 @@
 {
-  "title": "EUMH-ATM: PR-3 Thesis Code and Preserved Experiment Outputs",
-  "description": "PR-3 S0\u2013S13 Python/R implementation and preserved experiment outputs for explainable and uncertainty-aware ATM cash management. The original ZIP is stored in eight binary parts; run packages/reassemble_package.py to reconstruct and verify it. Includes protocol, environment specifications, manifests, prediction ledgers, tables, figures and tests. Full training and clean-environment reproduction were not rerun during deposit. Raw datasets and trained weights are not included. Historical and superseded implementations are separated inside the package. See README_AR.md and REPRODUCIBILITY_STATUS.md for verification limits. No new software licence is granted by this deposit.",
+  "title": "EUMH-ATM: PR-3 Thesis Code and S14 Computational Companion",
+  "description": "PR-3 S0\u2013S13 implementation and preserved outputs, plus the separate S14 post-review computational companion. Reconstruct the original PR-3 ZIP with python packages/reassemble_package.py and the original S14 ZIP with python packages/s14/reassemble_s14.py. Both scripts verify SHA-256. S14 includes nine overlapping H=56 origin evaluations, fitted-weight holdout calibration sensitivity, cash-only scenarios, portable scripts, executed sources and saved outputs. No new untouched-confirmation or independent-origin significance claim is made. No fitted weights or secondary raw transactions are redistributed; S14 includes the supplied NN5 input files. Full training was not rerun during deposit. See the package READMEs for scope, numerical refit discrepancies and limitations.",
   "upload_type": "software",
   "publication_date": "2026-10-22",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "creators": [
     {
       "name": "Mohamed, Walaa Adel Mahmoud"
