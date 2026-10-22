@@ -1,14 +1,22 @@
 {
-  "title": "EUMH-ATM Reproducibility Repository",
-  "description": "Reproducibility materials for an explainable and uncertainty-aware multi-hybrid AI framework for ATM cash management, including forecasting, XAI, calibrated uncertainty, replenishment-policy evaluation, and downstream routing-based sustainability scenarios.",
+  "title": "EUMH-ATM: PR-3 Thesis Code and Preserved Experiment Outputs",
+  "description": "PR-3 S0\u2013S13 Python/R implementation and preserved experiment outputs for explainable and uncertainty-aware ATM cash management. The original ZIP is stored in eight binary parts; run packages/reassemble_package.py to reconstruct and verify it. Includes protocol, environment specifications, manifests, prediction ledgers, tables, figures and tests. Full training and clean-environment reproduction were not rerun during deposit. Raw datasets and trained weights are not included. Historical and superseded implementations are separated inside the package. See README_AR.md and REPRODUCIBILITY_STATUS.md for verification limits. No new software licence is granted by this deposit.",
   "upload_type": "software",
-  "publication_date": "2026-08-20",
-  "version": "0.1.0",
+  "publication_date": "2026-10-22",
+  "version": "1.0.0",
   "creators": [
-    {"name": "Mohamed, Walaa Adel Mahmoud"},
-    {"name": "Abu Rizka, Mohamed"},
-    {"name": "Mahar, Khaled"},
-    {"name": "Abdelsalam, Mohammed"}
+    {
+      "name": "Mohamed, Walaa Adel Mahmoud"
+    },
+    {
+      "name": "Abu Rizka, Mohamed"
+    },
+    {
+      "name": "Mahar, Khaled"
+    },
+    {
+      "name": "Abdelsalam, Mohammed"
+    }
   ],
   "keywords": [
     "ATM cash management",

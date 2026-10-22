@@ -1,63 +1,27 @@
-# EUMH-ATM Reproducibility Repository
+# EUMH-ATM PR-3 thesis implementation and preserved outputs
 
-This repository supports the paper:
+This deposit contains the supplied PR-3 S0–S13 implementation package, including Python/R source, protocol configurations, environment specifications, stage manifests, prediction ledgers, derived tables, figures and tests.
 
-**EUMH-ATM: An Explainable and Uncertainty-Aware Multi-Hybrid AI Framework for ATM Cash Management with Downstream Sustainability Evaluation**
+## Download and extract
 
-## Study scope
+The original 41,011,688-byte ZIP is stored in eight binary parts to accommodate the upload channel. Download or clone this entire repository, then run:
 
-EUMH-ATM is an end-to-end, forecast-to-decision research pipeline integrating:
-
-1. leakage-safe multi-horizon ATM cash-demand forecasting;
-2. statistical, machine-learning, hybrid, and Transformer benchmarks;
-3. model-specific explainability using Integrated Gradients and TreeSHAP;
-4. uncertainty quantification using quantile, conformal, CQR, and MC Dropout approaches;
-5. replenishment-policy evaluation; and
-6. routing-based scenario evaluation of distance and estimated CO2e.
-
-The primary experiment uses 111 NN5 ATM series with a 56-day horizon, five prespecified seeds, rolling-origin development, a registered pre-final window, and a once-only final holdout. A separate five-ATM transaction panel is used for external validation.
-
-## Repository status
-
-The repository is public and has been initialized for archival integration. The following metadata and documentation are currently available:
-
-- citation metadata;
-- Zenodo deposition metadata;
-- dataset availability and redistribution constraints;
-- a transparent reproducibility-status register; and
-- eight recent references (2024–2025) linked to the paper.
-
-**Important:** executable source code, frozen configurations, prediction ledgers, experiment-registry exports, and derived result tables have not yet been deposited in this repository. They must be uploaded and checked before a versioned reproducibility release is created. No DOI should be cited until Zenodo has archived an actual GitHub release.
-
-## Intended release structure
-
-```text
-config/                Frozen experiment configurations
-src/                   Preprocessing, forecasting, XAI, UQ, policy and routing code
-scripts/               Reproduction entry points
-results/               Derived, non-sensitive result tables and ledgers
-docs/                  Protocol and artifact documentation
-references/            Bibliographic metadata
+```bash
+python packages/reassemble_package.py
 ```
 
-## Data
+The script rebuilds `packages/EUMH_ATM_Thesis_Code_Verified.zip` and checks its SHA-256 against the original. Extract that ZIP and follow the enclosed README.md and SETUP.md. No package contents were edited.
 
-- NN5 daily ATM dataset: [Monash Time Series Forecasting Archive on Zenodo](https://zenodo.org/records/3889740)
-- External five-ATM panel: [ATM transaction data of XYZ Bank on Kaggle](https://www.kaggle.com/datasets/nitsbat/data-of-atm-transaction-of-xyz-bank)
+See [Arabic guide](README_AR.md), [verification status](REPRODUCIBILITY_STATUS.md), and [data restrictions](DATA_AVAILABILITY.md).
 
-The external raw file is not redistributed here because its licence field was unknown at acquisition. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
+## Verification limits
+
+ZIP integrity and byte-identical reconstruction were checked during deposit. Full training and clean-environment reproduction were not rerun. The supplied report describes agreement with saved thesis tables and historical acceptance gates. Trained weights and raw datasets are absent. Earlier implementations remain in archive_superseded and are distinct from PR-3.
 
 ## Authors
 
-- Walaa Adel Mahmoud Mohamed
-- Mohamed Abu Rizka
-- Khaled Mahar
-- Mohammed Abdelsalam
+Walaa Adel Mahmoud Mohamed; Mohamed Abu Rizka; Khaled Mahar; Mohammed Abdelsalam.
 
-## Citation and DOI
+## Citation
 
-Citation metadata are provided in [CITATION.cff](CITATION.cff). A DOI will be added only after an auditable versioned release is archived by Zenodo.
-
-## Contact
-
-For academic queries and controlled access to materials that cannot yet be redistributed, please contact the corresponding author through the manuscript submission record.
+See CITATION.cff. A Zenodo DOI will be inserted after archival publication is confirmed. This deposit does not grant a new software licence.
