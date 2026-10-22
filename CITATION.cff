@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated EUMH-ATM paper and the archived software release once its DOI is available."
-title: "EUMH-ATM Reproducibility Repository"
+message: "If you use this deposit, please cite the archived software release."
+title: "EUMH-ATM: PR-3 Thesis Code and Preserved Experiment Outputs"
 type: software
 version: 1.0.0
 date-released: 2026-10-22
@@ -24,3 +24,6 @@ keywords:
   - replenishment
   - vehicle routing
   - sustainability
+
+doi: "10.5281/zenodo.23558922"
+url: "https://doi.org/10.5281/zenodo.23558922"

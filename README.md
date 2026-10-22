@@ -24,4 +24,4 @@ Walaa Adel Mahmoud Mohamed; Mohamed Abu Rizka; Khaled Mahar; Mohammed Abdelsalam
 
 ## Citation
 
-See CITATION.cff. A Zenodo DOI will be inserted after archival publication is confirmed. This deposit does not grant a new software licence.
+Version 1.0.0 is archived at https://doi.org/10.5281/zenodo.23558922. The DOI for all versions is https://doi.org/10.5281/zenodo.23558921. See CITATION.cff. The Zenodo archive metadata lists CC BY 4.0; no separate source-code licence file is included.
