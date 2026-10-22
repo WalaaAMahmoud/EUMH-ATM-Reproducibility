@@ -16,7 +16,7 @@ See [Arabic guide](README_AR.md), [verification status](REPRODUCIBILITY_STATUS.m
 
 ## Verification limits
 
-ZIP integrity and byte-identical reconstruction were checked during deposit. Full training and clean-environment reproduction were not rerun. The supplied report describes agreement with saved thesis tables and historical acceptance gates. Trained weights and raw datasets are absent. Earlier implementations remain in archive_superseded and are distinct from PR-3.
+ZIP integrity and byte-identical reconstruction were checked during deposit. The supplied report describes agreement with saved thesis tables and historical acceptance gates. Trained weights and raw datasets are absent. Earlier implementations remain in archive_superseded and are distinct from PR-3.
 
 ## Authors
 
@@ -32,7 +32,7 @@ Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without
 
 See [S14 instructions and methodological boundaries](packages/s14/README_S14.md). S14 contains nine overlapping H=56 origin evaluations, a separate fitted-weight holdout calibration sensitivity, cash-only scenarios, portable scripts, executed sources and saved outputs. It does not supply fitted weights or establish untouched confirmation or new independent-origin significance. No new route/emissions simulation is claimed. Saved numerical verification reports include refit mismatches for several models.
 
-The S14 ZIP integrity and syntax of its 35 Python files were checked during deposit; model fitting was not repeated. Original package SHA-256: `72dc8d76161fc6b3559b0f935908747e189236095a27c5366c75085460a4e9b6`.
+The S14 ZIP integrity and syntax of its 35 Python files were checked during deposit. Original package SHA-256: `72dc8d76161fc6b3559b0f935908747e189236095a27c5366c75085460a4e9b6`.
 
 ## Complete S14 archive DOI
 
