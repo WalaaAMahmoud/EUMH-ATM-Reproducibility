@@ -28,11 +28,7 @@ Version 1.0.0 is archived at https://doi.org/10.5281/zenodo.23558922. The DOI fo
 
 ## S14 post-review computational companion
 
-Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without modifying its contents. It is stored in 22 parts under `packages/s14/`. Rebuild it with:
-
-```bash
-python packages/s14/reassemble_s14.py
-```
+Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without modifying its contents. Download the complete ZIP from the **Assets** section of [release v1.1.0](https://github.com/WalaaAMahmoud/EUMH-ATM-Reproducibility/releases/tag/v1.1.0) and extract it directly. The repository source archive contains the documentation; the S14 binary companion is a separate release asset.
 
 See [S14 instructions and methodological boundaries](packages/s14/README_S14.md). S14 contains nine overlapping H=56 origin evaluations, a separate fitted-weight holdout calibration sensitivity, cash-only scenarios, portable scripts, executed sources and saved outputs. It does not supply fitted weights or establish untouched confirmation or new independent-origin significance. No new route/emissions simulation is claimed. Saved numerical verification reports include refit mismatches for several models.
 
