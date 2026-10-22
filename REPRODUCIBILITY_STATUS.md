@@ -1,16 +1,36 @@
 # Reproducibility status — 22 October 2026
 
+## Current archival status: completed
+
+Zenodo archival publication is complete for the PR-3 S0–S13 materials and the full S14 computational companion. The complete deposit is **Zenodo version 1.1.1**, published on **22 October 2026**.
+
+- **DOI for the complete deposit:** https://doi.org/10.5281/zenodo.23575850
+- **Published record:** https://zenodo.org/records/23575850
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23558921
+- **GitHub release containing the S14 asset:** https://github.com/WalaaAMahmoud/EUMH-ATM-Reproducibility/releases/tag/v1.1.0
+
+The complete Zenodo record contains two downloadable files:
+
+| File | Contents | Recorded size |
+| --- | --- | --- |
+| `WalaaAMahmoud/EUMH-ATM-Reproducibility-v1.1.0.zip` | Repository snapshot, including the original PR-3 S0–S13 package and S14 documentation | Approximately 40.6 MB |
+| `Paper2_S14_Computational_Companion.zip` | Complete original S14 computational companion | 115,154,750 bytes |
+
+**Download and extract the S14 ZIP directly.** It is a separate GitHub release asset and a separate Zenodo file; it is not embedded in GitHub's automatically generated source-code ZIP. The earlier proposed S14 split-part reconstruction is not the published distribution method.
+
+Archival publication confirms preservation and availability. It does not establish a new end-to-end reproduction; the verification limits below still apply.
+
 The PR-3 S0–S13 code and preserved experiment outputs are provided as eight binary parts in `packages/`; run `python packages/reassemble_package.py` to reconstruct `EUMH_ATM_Thesis_Code_Verified.zip`. The original ZIP is unchanged; its SHA-256 is recorded in `packages/SHA256SUMS`.
 
 The package includes Python and R source, protocol configuration, environment specifications, stage manifests, prediction ledgers, derived tables, figures, tests and execution instructions. See README_AR.md for the supplied verification report and limitations.
 
 ## Verification limits
 
-ZIP integrity was checked during deposit. The supplied report records Appendix C agreement (400/400) and saved acceptance gates (404/404 PASS); these are reported historical checks, not a new end-to-end run. Full training and clean-environment reproduction have not been repeated during this deposit. Trained weights and raw datasets are absent. Prophet post-hoc output files are not available. Protocol manifests carry successive amendment hashes; see the supplied report.
+ZIP integrity was checked during deposit. The supplied report records Appendix C agreement (400/400) and saved acceptance gates (404/404 PASS); these are reported historical checks, not a new end-to-end run. Full training and clean-environment reproduction have not been repeated during this deposit. Trained weights and raw datasets are absent from the original PR-3 package; the separate S14 companion includes the supplied NN5 input files, as noted below. Prophet post-hoc output files are not available. Protocol manifests carry successive amendment hashes; see the supplied report.
 
 Earlier code is separated under archive_superseded inside the package and must not be treated as the PR-3 implementation. Dataset redistribution constraints remain in DATA_AVAILABILITY.md. The Zenodo archive metadata lists CC BY 4.0. No separate source-code licence file is included.
 
-## Archival status
+## Original PR-3 archive (version history)
 
 Version v1.0.0 was published on GitHub on 22 October 2026 at commit 85c6b599bcea75e7372c3f6763572c08c7f023d5 and archived by Zenodo.
 
