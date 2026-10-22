@@ -28,7 +28,7 @@ Version 1.0.0 is archived at https://doi.org/10.5281/zenodo.23558922. The DOI fo
 
 ## S14 post-review computational companion
 
-Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without modifying its contents. It is stored in six parts under `packages/s14/`. Rebuild it with:
+Version 1.1.0 adds the supplied `Paper2_S14_Computational_Companion.zip` without modifying its contents. It is stored in 22 parts under `packages/s14/`. Rebuild it with:
 
 ```bash
 python packages/s14/reassemble_s14.py

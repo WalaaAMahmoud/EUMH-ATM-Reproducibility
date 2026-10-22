@@ -22,6 +22,6 @@ All eight uploaded part sizes and Git blob hashes match the local parts; their r
 
 ## S14 addition in v1.1.0
 
-The supplied S14 computational companion has 255 files and is preserved byte-for-byte as six archive parts. ZIP integrity and Python syntax (35 files) were checked. Full model training was not rerun. Follow packages/s14/README_S14.md for dependencies, source/portable-script distinctions, overlapping origins, calibration boundaries and recorded numerical verification mismatches. The S14 package includes supplied NN5 raw inputs; secondary transaction data and fitted weights are absent.
+The supplied S14 computational companion has 255 files and is preserved byte-for-byte as 22 archive parts. ZIP integrity and Python syntax (35 files) were checked. Full model training was not rerun. Follow packages/s14/README_S14.md for dependencies, source/portable-script distinctions, overlapping origins, calibration boundaries and recorded numerical verification mismatches. The S14 package includes supplied NN5 raw inputs; secondary transaction data and fitted weights are absent.
 
 The DOI above identifies v1.0.0; the version-specific DOI for v1.1.0 will be recorded after archival confirmation.

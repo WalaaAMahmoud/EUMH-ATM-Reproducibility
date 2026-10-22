@@ -2,7 +2,7 @@ from pathlib import Path
 import hashlib
 p = Path(__file__).resolve().parent
 name = "Paper2_S14_Computational_Companion.zip"
-parts = [p / (name + f".part{i:03d}") for i in range(1, 7)]
+parts = [p / (name + f".part{i:03d}") for i in range(1, 23)]
 for part in parts:
     if not part.is_file():
         raise SystemExit(f"Missing part: {part.name}")
